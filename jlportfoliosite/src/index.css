@@ -1,13 +1,223 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Setting variables */
+:root {
+  --page-background-color:rgb(218, 235, 255);
+  --main-background-color: rgb(27.6, 63, 106.6);
+  --highlight-background-color:rgb(75, 122.8, 179.4);
+  --main-text-color:white;
+}
+/* scroll bar customization */
+body::-webkit-scrollbar {
+  width: 15px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body::-webkit-scrollbar-track {
+  background:black; 
 }
+ 
+body::-webkit-scrollbar-thumb {
+  background: rgb(27.6, 63, 106.6); 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background:rgb(75, 122.8, 179.4); 
+}
+/* global changes */
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+body {
+  background-color:var(--page-background-color);
+  font-family:Arial, Helvetica, sans-serif;
+}
+/* custom link styles */
+a:link, a:visited {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  text-decoration: none; 
+}
+
+
+a:hover, a:active {
+  color:var(--highlight-background-color);
+  background-color: var(--main-background-color);
+  text-decoration: none;
+}
+
+/* img {
+  display:none;
+} */
+/* main image on load in */
+#headerPic{
+  height: auto;
+  width: 100%;
+  margin: 0 0 -122px 0;
+}
+/* alternate header info, probably outdated */
+/* header {
+    display:flex;
+    background-image:url("./images/l7bvcy58miw11.gif");
+    height:1050px;
+    width:100%;
+    margin:-8px;
+
+} */
+
+/* nav bar */
+/* main goal here is to have it be sticky to the bottom on load in and sticky to the top on scroll. sticky position should be able to do that but not sure how*/
+/* nav {
+  text-align:right;
+  position:-webkit-sticky;
+  position: sticky;
+  top: -70px;
+} */
+
+
+/* #home {
+  position:sticky;
+  top:0;
+  float:left;
+  font-size:80px;
+  margin-left: 5px;
+  display:inline;
+  padding:15px;
+} */
+/* 
+.navList {
+  display:inline;
+  margin-right:-10px;
+  position:relative; 
+  bottom:235px;
+  padding: 20px;
+  font-size:40px;
+} */
+.navList {
+  display: flex;
+  text-align:right;
+  /* background-color:var(--main-background-color); */
+  /* border-left:10px solid var(--highlight-background-color); */
+  position:relative;
+  top: -145px;
+  font-size: 2em;
+  padding:0 15px;
+  margin: 0 -5px;
+}
+
+.navList a:first-child {
+  margin-right: auto;
+  font-weight:bolder;
+  font-size:70px;
+}
+
+.navItems {
+  text-align:right;
+  /* position:-webkit-sticky; */
+  /* position: sticky; */
+  top: -70px;
+  padding:20px;
+  margin:-10px;
+  /* display:inline; */
+  background-color:var(--main-background-color);
+  align-self: baseline;
+
+}
+/* main sections */
+
+/* .main {
+} */
+
+/* h2.rightBorder {
+  display:inline-block;
+} */
+
+.aboutMe {
+  color:var(--main-text-color);
+}
+
+.aboutMe h2 {
+  font-size: 40px;
+}
+
+.rightBorder {
+  color:var(--main-text-color);
+  background-color:var(--main-background-color);
+  border-right: 5px solid var(--highlight-background-color);
+  background-color:var(--main-background-color);
+}
+
+.leftBorder {
+  border-left: 5px solid var(--highlight-background-color);
+  background-color:var(--main-background-color);
+}
+/* may try to rotate section titles */
+/* .rotate {
+  position: relative;
+  top: 109px;
+  margin: 0px 0px 0px 20px;
+  transform: rotate(90deg);
+  transform-origin: top right;
+} */
+
+p {
+  text-align:right;
+  background-color:var(--main-background-color);
+
+}
+
+.me {
+ max-width:fit-content;
+ /* max-height:auto; */
+}
+
+/* .work {
+display:flex;
+flex-direction:column;
+margin: 0 auto;
+}
+
+.work div {
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+} */
+
+/* .firstWork {
+  object-fit:contain;
+  width:60%;
+  height:auto;
+}
+
+.secondWork {
+  display:inline;
+  width:30%;
+  height:auto;
+}
+
+.thirdWork {
+  display:inline;
+  width:20%;
+  height:auto;
+} */
+
+
+/* .contact {
+display:flex;
+} */
+
+
+
+.contactList {
+  list-style:none;
+  background-color:var(--main-background-color);
+}
+
+  .resume {
+          background-color:var(--main-background-color);
+  }
+
+  footer {
+      text-align:center;
+      background-color:var(--main-background-color);
+  }
