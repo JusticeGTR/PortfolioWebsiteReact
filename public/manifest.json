@@ -3,37 +3,37 @@
   "name": "jlportfoliosite",
   "images": [
     {
-      "src": "l7bvcy58miw11.gif",
+      "src": "./images/l7bvcy58miw11.gif",
       "sizes": "1920x1080",
       "type": "image/gif"
     },
     {
-      "src": "expenseTrackerLarge.png",
+      "src": "./images/expenseTrackerLarge.png",
       "type": "image/png",
       "sizes": "839x678"
     },
     {
-      "src": "RankMyWorkplace.png",
+      "src": "./images/RankMyWorkplace.png",
       "type": "image/png",
       "sizes": "1904x924"
     },
     {
-      "src": "RandomPassGen.png",
+      "src": "./images/RandomPassGen.png",
       "type": "image/png",
       "sizes": "1361x855"
     },
     {
-      "src": "download (5).jpeg",
+      "src": "./images/download (5).jpeg",
       "type": "image/jpeg",
       "sizes": "1920x1080"
     },
     {
-      "src": "download (7).jpeg",
+      "src": "./images/download (7).jpeg",
       "type": "image/jpeg",
       "sizes": "1920x1080"
     },
     {
-      "src": "download (16).jpeg",
+      "src": "./images/download (16).jpeg",
       "type": "image/jpeg",
       "sizes": "1920x1080"
     }
