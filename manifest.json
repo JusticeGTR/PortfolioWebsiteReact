@@ -1,21 +1,41 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
+  "short_name": "JL Portfolio",
+  "name": "jlportfoliosite",
+  "images": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "./images/l7bvcy58miw11.gif",
+      "sizes": "1920x1080",
+      "type": "image/gif"
     },
     {
-      "src": "logo192.png",
+      "src": "./images/expenseTrackerLarge.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "839x678"
     },
     {
-      "src": "logo512.png",
+      "src": "./images/RankMyWorkplace.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "1904x924"
+    },
+    {
+      "src": "./images/RandomPassGen.png",
+      "type": "image/png",
+      "sizes": "1361x855"
+    },
+    {
+      "src": "./images/download (5).jpeg",
+      "type": "image/jpeg",
+      "sizes": "1920x1080"
+    },
+    {
+      "src": "./images/download (7).jpeg",
+      "type": "image/jpeg",
+      "sizes": "1920x1080"
+    },
+    {
+      "src": "./images/download (16).jpeg",
+      "type": "image/jpeg",
+      "sizes": "1920x1080"
     }
   ],
   "start_url": ".",
