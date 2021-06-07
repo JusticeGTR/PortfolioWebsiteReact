@@ -1,5 +1,5 @@
 import React from "react";
-import headerPic from "../../../public/images/l7bvcy58miw11.gif";
+import headerPic from "./l7bvcy58miw11.gif";
 
 export function Header() {
     return (
